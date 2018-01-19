@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:src="@drawable/ic_chevron_right_black_24dp"
+        style="@style/recyclerview_list_icon" />
+    <TextView
+        android:id="@+id/txtLanguageName_item"
+        android:text="Language Name here"
+        style="@style/recyclerview_list_item_master" />
+</LinearLayout>

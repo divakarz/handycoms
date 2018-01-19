@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Handy Commands</string>
+    <string name="title_activity_languages">Languages</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="command">Command</string>
+</resources>

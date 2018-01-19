@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relativelayout_global"
+    tools:context="com.handycoms.Add_Command">
+
+
+    <EditText
+        android:id="@+id/txtCommandName"
+        style="@style/edittext_primary"
+        android:hint="@string/command" />
+
+    <EditText
+        android:id="@+id/txtCommandDescription"
+        style="@style/edittext_primary"
+        android:layout_height="238dp"
+        android:layout_below="@id/txtCommandName"
+        android:hint="@string/description" />
+
+    <Button
+        android:id="@+id/btnCommand"
+        style="@style/button_primary"
+        android:layout_below="@id/txtCommandDescription"
+        android:text="@string/save" />
+
+
+</RelativeLayout>
+

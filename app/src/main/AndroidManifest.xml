@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.handycoms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Launch"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Languages"
+            android:label="LANGUAGES" />
+        <activity
+            android:name=".Add_Language"
+            android:label="ADD NEW"
+            android:windowSoftInputMode="stateVisible"
+            android:parentActivityName=".Languages" />
+        <activity
+            android:name=".LanguageCommands"
+            android:parentActivityName=".Languages" />
+        <activity
+            android:name=".Add_Command"
+            android:windowSoftInputMode="stateVisible"
+            android:parentActivityName=".LanguageCommands"
+             />
+
+        <activity android:name=".View_Command"
+            android:parentActivityName=".LanguageCommands"
+            android:label="VIEW COMMAND" />
+
+    </application>
+
+</manifest>

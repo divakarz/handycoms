@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relativelayout_global"
+    tools:context="com.handycoms.LanguageCommands">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerLanguageCommandList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnOpenAddCommand"
+        style="@style/add_new_icon_style"
+        app:srcCompat="@android:drawable/ic_input_add" />
+</RelativeLayout>
+

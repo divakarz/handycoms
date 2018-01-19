@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.handycoms.Add_Language"
+    style="@style/relativelayout_global">
+
+
+
+    <EditText
+        android:id="@+id/txtLanguageName"
+        android:hint="@string/name"
+        style="@style/edittext_primary"
+        android:focusable="false"
+        />
+
+    <Button
+        android:id="@+id/btnLanguage"
+        android:text="@string/save"
+        style="@style/button_primary"
+        android:layout_below="@id/txtLanguageName"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+
+    <ImageView
+        style="@style/recyclerview_list_icon"
+        android:src="@drawable/ic_chevron_right_black_24dp"
+        android:layout_alignLeft="@id/txtLanguageCommandName_item"
+        android:paddingTop="3dp"/>
+    <TextView
+        android:id="@+id/txtLanguageCommandName_item"
+        style="@style/recyclerview_list_item_master"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Command Name here"
+        android:paddingLeft="25dp"
+        android:lines="1"
+        android:maxLines="1"
+        android:textSize="20dp"                   
+        android:ellipsize="end"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/txtLanguageCommandDesc_item"
+        style="@style/recyclerview_list_item_master"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorlistchilditem"
+        android:ellipsize="end"
+        android:lines="2"
+        android:maxLines="2"
+        android:paddingTop="3dp"
+        android:paddingLeft="25dp"
+        android:text="description"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_below="@id/txtLanguageCommandName_item"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relativelayout_global"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    tools:context="com.handycoms.View_Command">
+
+    <TextView
+        android:id="@+id/txtCommandNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/command"
+        android:textColor="@color/colorPrimaryDark"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtCommandDesciptionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCommandNameView"
+        android:paddingTop="10dp"
+        android:text="@string/description"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+</RelativeLayout>
